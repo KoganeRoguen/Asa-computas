@@ -1,0 +1,17 @@
+-------------------------------------------------------
+
+# comandos do git para commit
+
+cd <caminho onde deseja salvar o repositório>
+
+git add *
+
+set /p commit= Nome da atualização para o commit: 
+
+git commit -m "%commit%"
+
+git push
+
+-------------------------------------------------------
+
+# 
