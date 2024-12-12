@@ -1,0 +1,30 @@
+services:
+  s1:
+    image: ubuntu-ssh
+    container_name: s1
+    #command: /usr/sbin/sshd -D
+    networks:
+      - asa-network
+    ports:
+      - "53:53"
+  s2:
+    image: ubuntu-ssh
+    container_name: s2
+    #command: /usr/sbin/sshd -D
+    networks:
+      - asa-network
+    ports:
+      - 81:80"
+  s3:
+    image: ubuntu-ssh
+    container_name: s3
+    #command: /usr/sbin/sshd -D
+    networks:
+      - asa-network
+    ports:
+      - 80:80
+
+#Docker Networks
+networks:
+  asa-network:
+    driver: bridge

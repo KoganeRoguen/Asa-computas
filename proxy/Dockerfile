@@ -1,2 +1,4 @@
 FROM nginx:latest
-COPY index.html /usr/share/nginx/html
+
+# Copia a configuracao do servidor
+COPY default.conf /etc/nginx/conf.d
