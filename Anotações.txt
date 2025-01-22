@@ -19,3 +19,9 @@ git push
 docker build -t mail
 
 docker run -p 25:25 mail
+
+=================================================================================
+
+desafio: fazer com que a caixa de entrada do email não suma ao iniciar o Docker
+
+=================================================================================
