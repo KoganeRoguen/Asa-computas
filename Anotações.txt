@@ -20,6 +20,17 @@ docker build -t mail
 
 docker run -p 25:25 mail
 
+docker ps (listar os dockers que estão rodando)
+
+docker stop
+
+docker pull
+
+docker-compose
+
+------------------------------------------------------
+
+
 =================================================================================
 
 desafio: fazer com que a caixa de entrada do email não suma ao iniciar o Docker
